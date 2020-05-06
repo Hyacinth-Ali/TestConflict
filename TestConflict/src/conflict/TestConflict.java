@@ -9,8 +9,12 @@ public class TestConflict {
 
     }
     
-    private double calcArea(int r) {
-        return 2 * Math.PI * r * r;
+    private double calcArea(double r) {
+        return Math.PI * r * r;
+    }
+    
+    private double calcPeremeter(int l, int w) {
+        return 2*l + 2*w;
     }
 
 }
