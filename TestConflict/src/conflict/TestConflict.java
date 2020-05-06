@@ -3,8 +3,8 @@ package conflict;
 public class TestConflict {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-       double area =  new TestConflict().calcArea(6);
+       TestConflict testConflict =  new TestConflict();
+       double area = testConflict.calcArea(4);
        System.out.println(area);
 
     }
